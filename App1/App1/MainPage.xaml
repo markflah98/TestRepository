@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns::ZodiacSigns="clr-namespace:TabbedPageSample"
+            x:Class"App1.MainPage"></TabbedPage>
+    
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Add" Clicked="ToolbarItem_Clicked />
+        <ToolbarItem Text="Add" Clicked="ToolbarItem_Clicked />
+    <TabbedPage.ToolbarItems>
+    <!--ad the zodiac pages in the tabs -->
+    <ZodiacSigns:Libra Title="Libra"/>
+    <ZodiacSigns:Saggitatius Title="Saggitatius"/>
+
